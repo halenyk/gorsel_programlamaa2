@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelime Geliştirici</title>
+  <style>
+    body {
+      width: 200px;
+      text-align: center;
+    }
+    h2 {
+      color: #333;
+    }
+    input {
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2 id="question">İngilizce kelime nedir?</h2>
+  <input type="text" id="answer" placeholder="Cevabınızı girin">
+  <button onclick="checkAnswer()">Cevapla</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
